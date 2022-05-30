@@ -6,7 +6,7 @@ import App from './App'
 const mount = el => {
   ReactDOM.render(<App />, el)
 }
-
+// fake comment
 if (process.env.NODE_ENV === 'development') {
   const devRoot = document.querySelector('#_marketing-dev-root')
   if (devRoot) {
